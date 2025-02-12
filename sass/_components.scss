@@ -264,6 +264,7 @@
       font-size: 1.8rem;
       padding: 1.25rem 2rem;
       flex:  0 0 50%;
+      order: -4;
     }
   }
 
@@ -290,7 +291,7 @@
     align-items: center;
 
     @media only screen and (max-width:$breakpoint-small) {
-      order: 2;
+      order: -1;
       flex: 0 0 50%;
       justify-content: center;
     }
@@ -316,6 +317,7 @@
       padding: 0 1.5rem;
       flex: 0 0 50%;
       margin-left: 0;
+      order: 1;
     }
   }
 
@@ -555,6 +557,7 @@
     font-size: 2rem;
     font-weight: 300;
     text-transform: uppercase;
+    padding: 0 1.5rem;
     margin-bottom: 2.5rem;
 
     @media only screen and(max-width: $breakpoint-small){

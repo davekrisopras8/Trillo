@@ -258,7 +258,8 @@ body {
       .overview__heading {
         font-size: 1.8rem;
         padding: 1.25rem 2rem;
-        flex: 0 0 50%; } }
+        flex: 0 0 50%;
+        order: -4; } }
   .overview__stars {
     margin-right: auto;
     display: flex; }
@@ -276,7 +277,7 @@ body {
     align-items: center; }
     @media only screen and (max-width: 37.5em) {
       .overview__location {
-        order: 2;
+        order: -1;
         flex: 0 0 50%;
         justify-content: center; } }
   .overview__icon-location {
@@ -295,7 +296,8 @@ body {
       .overview__rating {
         padding: 0 1.5rem;
         flex: 0 0 50%;
-        margin-left: 0; } }
+        margin-left: 0;
+        order: 1; } }
   .overview__rating-average {
     font-size: 2.25rem;
     font-weight: 300;
@@ -444,6 +446,7 @@ body {
     font-size: 2rem;
     font-weight: 300;
     text-transform: uppercase;
+    padding: 0 1.5rem;
     margin-bottom: 2.5rem; }
     @media only screen and (max-width: 37.5em) {
       .cta__book-now {
